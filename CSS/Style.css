@@ -85,14 +85,15 @@ ul {
 
 .bg {
   background: url(../PICTURES/Background.JPG);
-  background-position: center;
+  background-position: start;
   background-size: cover;
   background-attachment: scroll;
   position: fixed;
   width: 100%;
   height: 100%;
   z-index: -1;
-  filter: blur(1px);
+  filter: blur(2px);
+  margin-top: -4px;
   
 
 }
@@ -240,10 +241,26 @@ ul {
 }
 
 .wrapper {
+  
   width:100%;
-  position:fixed;
+  height: 110px;
+  position:fixed !important;
   z-index:10;
-  background: none;
+  
+ 
+}
+
+.wrapper-bg {
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  background: url(../PICTURES/Background.JPG);
+  background-size: cover;
+  background-position: start;
+  filter: blur(2px);
+  margin-top: -4px;
+
+
 }
 
 .bottom-wrapper {
